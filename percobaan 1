@@ -11,7 +11,7 @@ void setup() {
 void loop() {
   lcd.setCursor(0, 0); lcd.print("Main Program");
   lcd.setCursor(0, 1); lcd.print("Count Loop"); lcd.print(countLoop);
-  countLoop--;
+  countLoop++;
   delay(2000);
 }
 
